@@ -6,7 +6,7 @@
  * Return: Always 0
  */
 
-#include <studio.h>
+#include <stdio.h>
 
 int main(void)
 {
