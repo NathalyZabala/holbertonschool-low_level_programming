@@ -3,11 +3,10 @@
 int main(void)
 {
 	char n;
+	char m;
 
 	for (n = 'a'; n <= 'z'; n++)
 		putchar(n);
-
-	char m;
 
 	for (m = 'A'; m <= 'Z'; m++)
 		putchar(m);
