@@ -2,30 +2,44 @@
 #include <time.h>
 #include <stdio.h>
 
+/**
+ * main - this code assign a random number to the variable n each time it is
+ * executed and prints the last digit
+ *
+ * Return: 0
+ */
+
 int main(void)
 {
-	int n;
-	int last_digit = n % 10;
+	/**
+	 * m: the last digit
+	 */
+	int n, m;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	printf("Last digit of", n, "is");
+	printf("%d", n);
+	
+	/**
+	 * if I divide the number given to me by 10, the remainder is always
+	 * the last number.
+	 */
+	m = n % 10;
 
-	printf("%d ", n);
+	printf("The last digit %d is %d", n, m);
 
-	if (last_digit > 5)
+	if (m > 5)
 	{
 		printf("and is greater than 5\n");
 	}
-	else if (last_digit == 0)
+	else if (m == 0)
 	{
 		printf("and is 0\n");
 	}
-	else
+	else 
 	{
 		printf("and is less than 6 and not 0\n");
 	}
-
 	return (0);
 }
