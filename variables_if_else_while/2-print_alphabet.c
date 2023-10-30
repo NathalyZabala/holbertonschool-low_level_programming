@@ -15,7 +15,9 @@ int main(void)
 	 *
 	 * for bucle goes through the aplhabet letters
 	 */
+
 	char n;
+
 	for (n = 'a'; n <= 'z'; n++)
 		putchar(n);
 
