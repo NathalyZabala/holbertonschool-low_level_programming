@@ -2,6 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 
+/**
+ * main - This function assign a random number to the variable 'n' each time 
+ * it is executed.
+ *
+ * Return: 0, exit
+ */
+
 int main(void)
 {
 	int n;
