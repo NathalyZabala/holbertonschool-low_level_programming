@@ -18,15 +18,15 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	
+
 	/**
 	 * if I divide the number given to me by 10, the remainder is always
 	 * the last number.
 	 */
 	m = n % 10;
-	
+
 	printf("Last digit of %d is %d ", n, m);
-	
+
 	if (m > 5)
 	{
 		printf("and is greater than 5\n");
