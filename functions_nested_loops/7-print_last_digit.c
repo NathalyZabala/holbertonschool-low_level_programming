@@ -23,7 +23,7 @@ int print_last_digit(int n)
 
 	while (n >= 10)
 	{
-		n % 10;
+		n / 10;
 	}
 
 	_putchar(n + '0');
