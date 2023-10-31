@@ -8,18 +8,16 @@
 
 int main(void)
 {
-	char n;
+	/**
+	 * n represents numbers from 0 to 9
+	 * m represents letters from a to f
+	 */
+	char n, m;
 
-	for (n = '0'; n <= '15'; n++) {
-		if (n > '10') 
-		{
-			putchar('0' + n);
-		}
-		else
-		{
-			putchar('a' + (n - '10'));
-		}
-	}
+	for (n = '0'; n <= '9'; n++)
+		putchar(n);
+	for (m = 'a'; m <= 'f'; m++)
+		putchar(m);	
 
 	putchar('\n');
 
