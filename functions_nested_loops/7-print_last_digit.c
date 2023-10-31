@@ -14,7 +14,11 @@ int print_last_digit(int n)
 	int r;
 
 	r = n % 10;
-	
+
+	/**
+	 * si el numero es negativo, se multiplica por -1 para convertirlo a
+	 * positivo
+	 */
 	if (r < 0)
 		r = r * -1;
 
