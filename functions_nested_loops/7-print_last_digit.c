@@ -10,21 +10,15 @@
 
 int print_last_digit(int n)
 {
-	/**
-	 * Primero hay que asegurarse que el número no sea negativo
-	 * utilizando este operador ternario
-	 * si n es menor que 0 se ejecutará la expresión -n y cambiará
-	 * su signo, tomando el valor absoluto y el resultado se asignará 
-	 * de nuevo a la variable
-	 * condición ? valor_si_cierto : valor_si_falso;
-	 */
+	int r;
 
-	n = (n < 0) ? -n : n;
+	r = n % 10;
+	
+	if (r < 0)
+		r = r * -1;
 
-	while (n >= 10)
-	{
-		n / 10;
-	}
+	_putchar(r + '0');
+	_putchar('\n');
 
-	_putchar(n + '0');
+	return (0);
 }
