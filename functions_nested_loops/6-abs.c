@@ -4,13 +4,13 @@
 /**
  * _abs - function that computes the absolute value of an integer.
  *
+ * @n: data from user.
+ *
  * Return: 0
  */
 
-int _abs(int)
+int _abs(int n)
 {
-	int n;
-
 	/**
 	 * el valor abs de un número no considera su signo
 	 * por lo que el else de esta función multiplica n por -1
