@@ -19,8 +19,8 @@ void times_table(void)
 	{
 	d = c % 10;
 	e = (c - d) / 10;
-	_putchar(44);  //ASCII (,)
-	_putchar(32);  //ASCII space
+	_putchar(44);
+	_putchar(32);
 	_putchar(e + '0');
 	_putchar(d + '0');
 	}
