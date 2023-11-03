@@ -12,7 +12,7 @@ void print_diagonal(int n)
 
 	if (n <= 0)
 	{
-		putchar('\n');
+		_putchar('\n');
 	}
 	else
 	{
@@ -23,13 +23,13 @@ void print_diagonal(int n)
 				/**
 				 * space in ASCII
 				 */
-				putchar(32);
+				_putchar(32);
 			}
 		/**
 		 * \ in ASCII
 		 */
 			_putchar(92);
-			putchar('\n');
+			_putchar('\n');
 		}
 	}
 }
