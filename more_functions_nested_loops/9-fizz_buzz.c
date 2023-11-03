@@ -15,38 +15,25 @@ int main(void)
 	{
 		if (n % 3 == 0)
 		{
-			_putchar('F');
-			_putchar('i');
-			_putchar('z');
-			_putchar('z');
+			printf("Fizz");
 		}
 		else if (n % 5 == 0)
 		{
-			_putchar('B');
-			_putchar('u');
-			_putchar('z');
-			_putchar('z');
+			printf("Buzz");
 		}
 		else if ((n % 3 == 0) && (n % 5 == 0))
 		{
-			_putchar('F');
-			_putchar('i');
-			_putchar('z');
-			_putchar('z');
-			_putchar('B');
-			_putchar('u');
-			_putchar('z');
-			_putchar('z');
+			printf("FizzBuzz")
 		}
 		else
 		{
-			_putchar("%d", n);
+			printf("%d", n);
 		}
 		if (n != 100)
 		{
-			_putchar(32);
+			printf(" ");
 		}
 	}
-	_putchar('\n');
+	printf("\n");
 	return (0);
 }
