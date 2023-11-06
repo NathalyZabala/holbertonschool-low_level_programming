@@ -2,7 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - check the code 
+ * reset_to_98 - check the code 
+ *
+ * @n: poniter
  *
  * Return: Always 0.
  */
@@ -10,6 +12,5 @@
 void reset_to_98(int *n)
 {
 	*n = 98;
-
-	return (0);
+	printf("%d\n", *n);
 }
