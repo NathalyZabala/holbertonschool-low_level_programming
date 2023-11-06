@@ -13,5 +13,5 @@ int _strlen(char *s)
 {
 	size_t length;
 
-	length = _strlen(*n);
+	length = _strlen(*s);
 }
