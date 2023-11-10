@@ -3,6 +3,9 @@
 /**
  * *_memset - function that fills memory with a constant byte.
  *
+ * @s: pointer to memory area to fill
+ * @b: constant byte
+ * @n: the number of bytes to fill
  * @i: index
  *
  * Return: s
