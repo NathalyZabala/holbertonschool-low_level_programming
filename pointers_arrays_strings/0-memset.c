@@ -6,7 +6,6 @@
  * @s: pointer to memory area to fill
  * @b: constant byte
  * @n: the number of bytes to fill
- * @i: index
  *
  * Return: s
  */
