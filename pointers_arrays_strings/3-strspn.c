@@ -6,15 +6,15 @@
  * @s: input
  * @accept: input
  *
- * Return: value
+ * Return: len
  */
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int i, n, value, check;
+	unsigned int i, n, len, check;
 
 	i = 0;
-	value = 0;
+	len = 0;
 
 	for (; s[i] != '\0'; i++)
 	{
@@ -24,15 +24,15 @@ unsigned int _strspn(char *s, char *accept)
 		{
 			if (accept[n] == s[i])
 			{
-				value++;
+				len++;
 				check = 1;
 			}
 		}
 
 		if (check == 0)
-			return (value);
+			return (len);
 	}
 
-	return (value);
+	return (len);
 
 }
