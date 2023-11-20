@@ -5,6 +5,7 @@
  *
  * @s1: string 1
  * @s2: string 2
+ * @n: ...
  *
  * Return: s1 + s2
  */
@@ -12,12 +13,10 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	unsigned int i = 0, j = 0, k = 0, l = 0;
-
 	char *str;
 
 	if (s1 == NULL)
 		s1 = "";
-
 	if (s2 == NULL)
 		s2 = "";
 
@@ -29,17 +28,14 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	if (n >= k)
 		l = i + k;
-
 	else
 		l = i + n;
 
 	str = malloc(sizeof(char) * l + 1);
-
 	if (str == NULL)
 		return (NULL);
 
 	k = 0;
-
 	while (j < l)
 	{
 		if (j <= i)
@@ -50,11 +46,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 			str[j] = s2[k];
 			k++;
 		}
-
 		j++;
 	}
-
 	str[j] = '\0';
-
 	return (str);
 }
