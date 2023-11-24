@@ -57,7 +57,7 @@ int op_div(int a, int b)
 }
 
 /**
- * op_div - returns a mod b
+ * op_mod - returns a mod b
  *
  * @a: int
  * @b: int
