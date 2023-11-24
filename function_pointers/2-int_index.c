@@ -11,7 +11,7 @@
  * Return: -1
  */
 
-int int_index(int *array, int size, int (*cmp)(int));
+int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i = 0;
 
