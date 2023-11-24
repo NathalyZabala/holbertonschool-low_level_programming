@@ -15,7 +15,7 @@ int op_add(int a, int b)
 }
 
 /**
- * op_sub: returns sub of a and b
+ * op_sub -  returns sub of a and b
  *
  * @a: int
  * @b: int
@@ -29,7 +29,7 @@ int op_sub(int a, int b)
 }
 
 /**
- * op_mul: returns mul of a and b
+ * op_mul - returns mul of a and b
  *
  * @a: int
  * @b: int
