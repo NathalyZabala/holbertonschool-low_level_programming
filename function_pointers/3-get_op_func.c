@@ -1,7 +1,7 @@
 #include "3-calc.h"
 
 /**
- * get_op_func - pointer to function that selects the correct 
+ * get_op_func - pointer to function that selects the correct
  * function to perform the operation asked by the user.
  *
  * @s: pointer to the operator
